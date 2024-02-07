@@ -1,0 +1,7 @@
+{
+  "manifest_version": 3,
+  "name": "Scratch Hacker",
+  "description": "Modify scratch variables",
+  "version": "1.0",
+  "content_scripts": [{"js": ["source.js"], "matches": ["https://scratch.mit.edu/*"], "world": "MAIN"}]
+}
